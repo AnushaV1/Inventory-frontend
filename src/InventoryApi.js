@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const BASE_URL =  process.env.BASE_URL || 'http://localhost:3001';
-
+//const BASE_URL =  process.env.BASE_URL || 'http://localhost:3001';
+process.env.REACT_APP_BACKEND_URL ||  'https://anusha-inventory.herokuapp.com';
+//"http://localhost:3001
 
 class InventoryApi {
     static async request(endpoint, params = {}, verb = "get") {
