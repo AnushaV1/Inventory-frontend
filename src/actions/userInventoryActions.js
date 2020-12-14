@@ -3,7 +3,7 @@ import { addAlert } from "./alertActions"
 import InventoryApi from "../InventoryApi";
 import Axios from "axios";
 //const API_URL =  process.env.BASE_URL || 'http://localhost:3001';
-const BASE_URL = process.env.REACT_APP_BACKEND_URL ||  'https://anusha-inventory.herokuapp.com';
+const API_URL = process.env.REACT_APP_BACKEND_URL ||  'https://anusha-inventory.herokuapp.com';
 
 
 export const addUserItem = (data) => {
