@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Inventory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Inventory is a web application for creating an inventory of home electronic utilities like laptop, computer, television etc. for users. 
+This application comes in handy at the time of disaster or at any other times to claim insurance and to know the value of lost items . 
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* **User Signup and Login for personalized product storage **
+* **Search product details with upc code upon login**
+* **Add, Edit, Delete user's product details to database**
+* **Allows users to store receipt images, product images**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Description
 
-### `npm test`
+Upon signup / login, this application allow users to add purchase date and store at which the product was purchased, serial number, warranty time, return policy,manual link etc. 
+In addition to product details, the user can also store receipts and product image. The user can see more details of the product if they have UPC code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Deployment
+The frontend part of this web application is deployed in netlify. Click [here](https://anusha-inventory.netlify.app/) to see it in action. 
+The backend is deployed in heroku.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started clone the repository, install the packages from package.json, create inventory database in postgreSQL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone
 
-### `npm run eject`
+Clone a copy of the frontend repository: git clone <https://github.com/AnushaV1/Inventory-frontend.git>
+Clone a copy of the backend repository: git clone <https://github.com/AnushaV1/Inventory-backend.git>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Git**
+* **Visual Studio**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### API Details
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This application uses [UPCitemdb](https://www.upcitemdb.com/api/explorer#!/lookup/get_trial_lookup) API to lookup for upc code in search. 
 
-## Learn More
+### Improve or Contribute
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to improve or contribute on this project. Pull requests are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Anusha Venkataraghavan**
