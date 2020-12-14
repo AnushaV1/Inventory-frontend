@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="footer"
+  >
+    <div
+      class="container-fluid text-center"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-4 mt-md-0 mt-3 text-left"
+        >
+          <h5>
+            <a
+              class="text-white-50"
+              href="https://www.upcitemdb.com/api/explorer#!/lookup/get_trial_lookup"
+            >
+              API - UPCItemDB 
+            </a>
+          </h5>
+        </div>
+        <div
+          class="col-md-4 mb-md-0 mb-3 "
+        >
+          <h5
+            class="text-white-50"
+          >
+            Springboard Capstone project 2
+          </h5>
+        </div>
+        <div
+          class="col-md-4 mb-md-0 mb-3 text-center"
+        >
+          <h4>
+             
+            <a
+              class="text-white-50"
+              href="http://www.linkedin.com/in/anusha-venkataraghavan"
+            >
+              <i
+                class="fab fa-linkedin"
+              />
+            </a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

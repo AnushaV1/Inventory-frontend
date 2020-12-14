@@ -7,12 +7,9 @@ import { registerUser } from "../actions/userAction";
 import { addAlert } from "../actions/alertActions";
 
 const Register = () => {
-   // const registering = useSelector(state => state.registration.registering);
-
     const dispatch = useDispatch();
     const history = useHistory();
-    const currentUser = useSelector(st => st.users);
-
+    const currentUser = useSelector(st => st.users.user);
     useEffect(() => {
         async function checkUser() {
         if (currentUser.username) { 

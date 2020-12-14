@@ -6,9 +6,8 @@ import DatePicker from "./DatePicker";
 import "react-datepicker/dist/react-datepicker.css";
 import * as Yup from "yup";
 import { addUserItem } from "../actions/userInventoryActions";
-// import "./AddItemForm.css"
 
-const AddItemForm = ({ addItem }) => {
+const AddItemForm = () => {
     const history = useHistory();
     const dispatch = useDispatch();
     

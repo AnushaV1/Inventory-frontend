@@ -6,9 +6,9 @@ import { getProducts } from "../actions/userInventoryActions";
 import UserProductTable from "./UserProductTable";
 
 const Dashboard = () => {
-    const [isLoading, setIsLoading] = useState(false);
     const history = useHistory();
     const dispatch = useDispatch();
+    const [isLoading, setIsLoading] = useState(false);
     const currentUser = useSelector(st => st.users.user);
     const userId = currentUser.userid;
     const  products = useSelector(st =>st.products) 

@@ -38,7 +38,7 @@ const ProductDetails = () => {
 
     if(Object.keys(product).length === 0) {
         return (
-            <div style={{margiTop: '40px'}}>That looks like an invalid UPC code.  Try another one!</div>
+            <div style={{marginTop: '40px'}}>That looks like an invalid UPC code.  Try another one!</div>
         )
     }
     return (   

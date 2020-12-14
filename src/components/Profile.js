@@ -7,9 +7,9 @@ import { addAlert } from "../actions/alertActions";
 
 
 const Profile = () => {
-    const currentUser = useSelector(st=>st.users.user);
     const dispatch = useDispatch();
     const history = useHistory();
+    const currentUser = useSelector(st=>st.users.user);
     const [user, setUser] = useState({})
     useEffect(() => {
         async function getUserDetails(){

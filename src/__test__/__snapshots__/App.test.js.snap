@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-dark"
+    >
+      <div
+        class="container-fluid"
+      >
+        <div
+          class="navbar-header"
+        >
+          <a
+            aria-current="page"
+            class="navbar-brand active"
+            href="/"
+          >
+            <img
+              alt="Home Inventory Logo"
+              src="homeInventoryLogo.jpg"
+            />
+            My Home Inventory
+          </a>
+        </div>
+        <ul
+          class="nav navbar-nav navbar-right"
+        >
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="/register"
+            >
+              Register
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="/login"
+            >
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div />
+    <div>
+      <section
+        class="Home col-md-12 p-0"
+      >
+        <div
+          class="banner container-fluid text-center text-light m-0 p-5"
+        >
+          <div
+            class="content-wrapper mb-5"
+          >
+            <h1
+              class="mb-3 font-weight-bold"
+            >
+              Inventory
+            </h1>
+            <p
+              class="lead"
+            >
+              All your inventory in one, convenient place.
+            </p>
+            <a
+              class="btn btn-primary btn-lg px-5 py-3 my-5"
+              href="/login"
+            >
+              Log In
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer
+      class="footer"
+    >
+      <div
+        class="container-fluid text-center"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-4 mt-md-0 mt-3 text-left"
+          >
+            <h5>
+              <a
+                class="text-white-50"
+                href="https://www.upcitemdb.com/api/explorer#!/lookup/get_trial_lookup"
+              >
+                API - UPCItemDB 
+              </a>
+            </h5>
+          </div>
+          <div
+            class="col-md-4 mb-md-0 mb-3 "
+          >
+            <h5
+              class="text-white-50"
+            >
+              Springboard Capstone project 2
+            </h5>
+          </div>
+          <div
+            class="col-md-4 mb-md-0 mb-3 text-center"
+          >
+            <h4>
+               
+              <a
+                class="text-white-50"
+                href="http://www.linkedin.com/in/anusha-venkataraghavan"
+              >
+                <i
+                  class="fab fa-linkedin"
+                />
+              </a>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;

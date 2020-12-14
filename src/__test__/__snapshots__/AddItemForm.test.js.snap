@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container mt-5"
+  >
+    <h2>
+      Add Items Form
+    </h2>
+    <form
+      action="#"
+      enctype="multipart/form-data"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <label
+            for="product_name"
+          >
+            Product Name: 
+          </label>
+          <input
+            class="form-control"
+            id="product_name"
+            name="product_name"
+            placeholder="Product Name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="col"
+        >
+          <label
+            for="product_price"
+          >
+            Product Price: 
+          </label>
+          <input
+            class="form-control"
+            id="product_price"
+            name="product_price"
+            placeholder="Product Price"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <label
+            for="purchased_at"
+          >
+            Purchased at:  
+          </label>
+          <input
+            class="form-control"
+            id="purchased_at"
+            name="purchased_at"
+            placeholder="Purchased At"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="col"
+        >
+          <label
+            for="serial_number"
+          >
+            Serial Number: 
+          </label>
+          <input
+            class="form-control"
+            id="serial_number"
+            name="serial_number"
+            placeholder="Serial Number"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <label
+            for="warranty_period"
+          >
+            Warranty Period: 
+          </label>
+          <input
+            class="form-control"
+            id="warranty_period"
+            name="warranty_period"
+            placeholder="Warranty Period"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="col"
+        >
+          <label
+            for="return_policy"
+          >
+            Return Policy: 
+          </label>
+          <input
+            class="form-control"
+            id="return_policy"
+            name="return_policy"
+            placeholder="Return Policy"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <label
+            for="manual_link"
+          >
+            Manual Link: 
+          </label>
+          <input
+            class="form-control"
+            id="manual_link"
+            name="manual_link"
+            placeholder="Manual Link"
+            type="text"
+            value=""
+          />
+        </div>
+         
+        <div
+          class="col"
+        >
+          <label
+            for="upc"
+          >
+            UPC code: 
+          </label>
+          <input
+            class="form-control"
+            id="upc"
+            name="upc"
+            placeholder="UPC code"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <label
+            for="user_product_image"
+          >
+            User Product Image: 
+          </label>
+          <input
+            class="form-control"
+            id="productImg"
+            name="productImg"
+            placeholder="Add your product Image"
+            type="file"
+          />
+        </div>
+        <div
+          class="col"
+        >
+          <label
+            for="receiptImg"
+          >
+            Receipt Image: 
+          </label>
+          <input
+            class="form-control"
+            name="receiptImg"
+            placeholder="Receipt Image"
+            type="file"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+        style="margin-top: 20px;"
+      >
+        <div
+          class="col d-flex justify-left"
+        >
+          <label
+            class="mr-sm-2"
+            for="purchase_date"
+          >
+            Purchase Date:   
+          </label>
+          <div
+            class="react-datepicker-wrapper"
+          >
+            <div
+              class="react-datepicker__input-container"
+            >
+              <input
+                class="form-control"
+                id="purchase_date"
+                name="purchase_date"
+                type="text"
+                value="12/13/2020"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="col justify-right"
+        >
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+             Add Item 
+          </button>
+            
+          <button
+            class="btn btn-secondary"
+            type="reset"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;

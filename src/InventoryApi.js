@@ -85,7 +85,6 @@ class InventoryApi {
         return res;
     }
 
-
 }
 
 export default InventoryApi;
