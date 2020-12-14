@@ -13,6 +13,10 @@ This application comes in handy at the time of disaster or at any other times to
 * **Add, Edit, Delete user's product details to database**
 * **Allows users to store receipt images, product images**
 
+## Tech Stack
+* **Frontend:** ReactJS, Redux JS, React Router, Formik, Yup, Axios
+* **Backend:**  NodeJS, Express JS, PostgreSQL, Bcrypt, JWT, Axios
+
 ## Description
 
 Upon signup / login, this application allow users to add purchase date and store at which the product was purchased, serial number, warranty time, return policy,manual link etc. 
