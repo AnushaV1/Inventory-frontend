@@ -8,7 +8,7 @@ This application comes in handy at the time of disaster or at any other times to
 
 ## Features
 
-* **User Signup and Login for personalized product storage **
+* **User Signup and Login for personalized product storage**
 * **Search product details with upc code upon login**
 * **Add, Edit, Delete user's product details to database**
 * **Allows users to store receipt images, product images**
