@@ -209,7 +209,7 @@ const UserProductTable = ({products}) => {
     return (
     
             <>
-        <div className="container-fluid" style= {{marginTop: '30px', overflow:'scroll' }}>
+        <div className="container-fluid" style= {{marginTop: '30px'}}>
         <div>{image && ModalManager.open(<ImageModal imgSrc={image} onRequestClose={() => true}/>)}</div>
         <div style= {{marginTop: '30px' }}>
         <BTable striped bordered hover {...getTableProps()}>

@@ -8,9 +8,14 @@ import UpcProductDisplay from "./UpcProductDisplay";
     return (
         <Modal
         onRequestClose={onRequestClose}
-        effect={Effect.Fall}>
+        effect={Effect.Fall}  style={{content: { 
+            position: 'relative',
+            height: "50%",
+        width: "50%",
+        bottom: "0px"
+    }
+}}>  <button onClick={ModalManager.close} style={{position:'absolute', right: '0px'}}>Close</button>
         <UpcProductDisplay displayUpc={upcObj} />
-        <button onClick={ModalManager.close}>Close</button>
     </Modal>
     )
     }

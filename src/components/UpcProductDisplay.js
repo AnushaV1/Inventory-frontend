@@ -12,20 +12,29 @@ function UpcProductDisplay({ displayUpc }) {
 	return (
         <>
         <div className="spotlight">
-            <div className="content">                
-<div className="jumbotron">
+        <div className="content">  
+        <div class="container mt-3">
+    <div class="row">
+    <div class="col-sm"><h4 className="display-5">{displayUpc.title} </h4></div>
+    <div class="col-sm"><h4>UPC - {displayUpc.upc_code}</h4></div>
+    </div>
+    
+    <div class="row">
+    <div class="col-sm"><span className="lead left-half"><strong>Category:{displayUpc.category}</strong></span></div>
+    </div>
+    <div class="row">
+    <div class="col-sm"><span><strong>Brand:{displayUpc.brand}</strong></span></div>
+    <div class="col-sm"><span><strong>Model: {displayUpc.model}</strong></span></div>
+    <div class="col-sm"><span><strong>Color:{displayUpc.color}</strong></span></div>
+    <div class="col-sm"><span><strong>Dimension: ${displayUpc.dimension}</strong></span></div>
+    </div>
 
-<div><h3 className="display-5">{displayUpc.title}</h3> - <h4>UPC - {displayUpc.upc}</h4></div>
-<span className="lead left-half"><strong>Category:{displayUpc.category}</strong></span>
-<div>
-<div className="lead left-half"><strong>Brand:{displayUpc.brand}</strong> <span className="lead clear-left"><strong>Model: {displayUpc.model}</strong></span>
-<span className="lead clear-left"><strong>Color:{displayUpc.color}</strong></span> <span className="lead clear-left"><strong>Dimension: ${displayUpc.dimension}</strong></span>  </div>
-</div>
+    <hr className="clear" />
+    <div class="row">
+    <div class="col-sm"><span>{displayUpc.description}</span></div>
+    </div>
+</div>              
 
-<hr className="clear" />
-<p className="lead left-half">{displayUpc.description}</p>
-
-</div>
             </div>
             <span className="image"><img src={displayUpc.image_link|| defaultLogo} alt={displayUpc.title} /></span>
         </div>
@@ -35,3 +44,4 @@ function UpcProductDisplay({ displayUpc }) {
     }
 
 export default UpcProductDisplay;
+

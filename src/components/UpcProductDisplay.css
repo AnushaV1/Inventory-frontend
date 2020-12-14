@@ -10,7 +10,7 @@ float: left;
 }
 
 .clear {
-	padding: 5px;
+	padding: 8px;
 	margin: 5px;
 }
 
@@ -31,8 +31,7 @@ float: left;
 		-webkit-flex: 1;
 		-ms-flex: 1;
 		flex: 1;
-		border: 1px solid #008cff;
-	}
+		}
 
 		.spotlight .content > :last-child {
 			margin-bottom: 0;
@@ -44,16 +43,16 @@ float: left;
 
 	.spotlight .image {
 		display: inline-block;
-		margin-left: 4em;
-		padding: 0.65em;
-		border-radius: 5px;
-		border: solid 1px;
+		margin-left: 2em;
+		padding: 0.15em;
+		margin-right: 1em;
 	}
 
 		.spotlight .image img {
 			display: block;
 			border-radius: 5px;
 			width: 16em;
+			height:75%;
 		}
 
 	@media screen and (max-width: 980px) {
@@ -92,7 +91,7 @@ float: left;
 				-webkit-flex: 0 1 auto;
 				-ms-flex: 0 1 auto;
 				flex: 0 1 auto;
-				margin-left: 0;
+				margin-left: 1em;
 				margin-bottom: 2em;
 			}
 
@@ -102,10 +101,13 @@ float: left;
 
 		.spotlight .image {
 			padding: 0.35em;
+			height: 75%;
+			right: 5px;
 		}
 
 			.spotlight .image img {
 				width: 12em;
+				height: 75%;
 			}
 
 	}
