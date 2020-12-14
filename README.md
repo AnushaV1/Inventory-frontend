@@ -20,7 +20,7 @@ This application comes in handy at the time of disaster or at any other times to
 ## Description
 
 Upon signup / login, this application allow users to add purchase date and store at which the product was purchased, serial number, warranty time, return policy,manual link etc. 
-In addition to product details, the user can also store receipts and product image. The user can see more details of the product if they have UPC code.
+In addition to product details, the user can also store receipts and product image. The users can edit, delete products. The user can also see more details of the product if they enter UPC code.
 
 
 ## Deployment
