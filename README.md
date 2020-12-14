@@ -15,7 +15,7 @@ This application comes in handy at the time of disaster or at any other times to
 
 ## Tech Stack
 * **Frontend:** ReactJS, Redux JS, React Router, Formik, Yup, Axios
-* **Backend:**  NodeJS, Express JS, PostgreSQL, Bcrypt, JWT, Axios
+* **Backend:**  NodeJS, Express JS, Multer JS, PostgreSQL, Bcrypt, JWT, Axios
 
 ## Description
 
