@@ -8,7 +8,7 @@ import { ModalManager} from 'react-dynamic-modal';
 import MyModal from "./MyModal";
 import { addAlert } from "../actions/alertActions";
 import defaultLogo from "../images/default-no-image.png";
-
+import ImageModal from "./ImageModal"
 
 
 const EditableCell = ({
@@ -210,7 +210,7 @@ const UserProductTable = ({products}) => {
     
             <>
         <div className="container-fluid" style= {{marginTop: '30px', overflow:'scroll' }}>
-        <div>{image && <img src={image} alt={image} style={{width: '400px', height: '300px',  marginTop: '20px', marginBottom: '50px'}}/>}</div>
+        <div>{image && ModalManager.open(<ImageModal imgSrc={image} onRequestClose={() => true}/>)}</div>
         <div style= {{marginTop: '30px' }}>
         <BTable striped bordered hover {...getTableProps()}>
         <thead>

@@ -33,7 +33,7 @@ const AddItemForm = () => {
         upc: Yup.string().required('Required!'),
     })
 
-    const onSubmit = (values, {setStatus, setSubmitting}) => {
+    const onSubmit = async (values, {setStatus, setSubmitting}) => {
         const yourDate = values.purchase_date;
         const yourFormattedDate = yourDate.getFullYear() +
         "-"+ (yourDate.getMonth() + 1)   + 
@@ -41,7 +41,7 @@ const AddItemForm = () => {
         if(values.receiptImg === "" && values.productImg === "") {
         const updatedValues = {...values, purchase_date:yourFormattedDate}
         setStatus();
-        dispatch(addUserItem(updatedValues));
+        await dispatch(addUserItem(updatedValues));
         }
         else {
             let data = new FormData();
@@ -61,7 +61,7 @@ const AddItemForm = () => {
                 data.append("productImg", values.productImg)
             }
             setStatus();
-            dispatch(addUserItem(data));
+            await dispatch(addUserItem(data));
         }
         history.push('/dashboard')
     }
