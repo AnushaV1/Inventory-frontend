@@ -29,8 +29,9 @@ To get started clone the repository, install the packages from package.json, cre
 
 ### Clone
 
-Clone a copy of the frontend repository: git clone <https://github.com/AnushaV1/Inventory-frontend.git>
-Clone a copy of the backend repository: git clone <https://github.com/AnushaV1/Inventory-backend.git>
+* **Clone a copy of the frontend repository: git clone <https://github.com/AnushaV1/Inventory-frontend.git>**
+* **Clone a copy of the backend repository: git clone <https://github.com/AnushaV1/Inventory-backend.git>**
+
 
 ### Prerequisites
 
