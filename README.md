@@ -14,7 +14,7 @@ This application comes in handy at the time of disaster or at any other times to
 * **Allows users to store receipt images, product images**
 
 ## Tech Stack
-* **Frontend:** ReactJS, Redux JS, React Router, Formik, Yup, Axios
+* **Frontend:** ReactJS, Redux JS, React Router, Formik, Yup, Axios, RESTful, API
 * **Backend:**  NodeJS, Express JS, Multer JS, PostgreSQL, Bcrypt, JWT, Axios
 
 ## Description
