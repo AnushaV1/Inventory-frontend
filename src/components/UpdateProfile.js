@@ -26,7 +26,7 @@ function UpdateProfile() {
         confirmPassword: ""
     };
     const [user, setUser] = useState(initialValues);
-    const [submitting, setSubmitting] = useState(false)
+    const [submitting, setSubmitting] = useState(false);
 
     if(username) {
         currUser = username

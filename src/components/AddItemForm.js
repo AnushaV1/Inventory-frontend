@@ -75,7 +75,7 @@ const AddItemForm = () => {
         <Form encType="multipart/form-data">
         <div className="row">
         <div className="col">
-            <label htmlFor="product_name">Product Name: </label>
+            <label htmlFor="product_name">* Product Name: </label>
             <Field type="text"
                 name="product_name"
                 id="product_name"
@@ -85,7 +85,7 @@ const AddItemForm = () => {
                 <ErrorMessage name ="product_name" render={msg => <div className="error">{msg}</div>} />
                 </div>
                 <div className="col">
-            <label htmlFor="product_price">Product Price: </label>
+            <label htmlFor="product_price">* Product Price: </label>
             <Field 
                 type="text" 
                 name="product_price" 
@@ -98,7 +98,7 @@ const AddItemForm = () => {
             </div>
             <div className="row">
             <div className="col">
-            <label htmlFor="purchased_at">Purchased at:  </label>
+            <label htmlFor="purchased_at">* Purchased at:  </label>
             <Field 
                 type="text" 
                 name="purchased_at" 
@@ -109,7 +109,7 @@ const AddItemForm = () => {
             <ErrorMessage name ="purchased_at" render={msg => <div className="error">{msg}</div>} />
             </div>
             <div className="col">
-            <label htmlFor="serial_number">Serial Number: </label>
+            <label htmlFor="serial_number">* Serial Number: </label>
             <Field
                 type="text"
                 name="serial_number"
@@ -151,7 +151,7 @@ const AddItemForm = () => {
                 className="form-control" 
             />
             </div> <div className="col">
-            <label htmlFor="upc">UPC code: </label>
+            <label htmlFor="upc">* UPC code: </label>
             <Field 
                 type="text" 
                 name="upc" 
@@ -188,7 +188,7 @@ const AddItemForm = () => {
             </div>
             <div className="row" style={{ marginTop: '20px'}}>
             <div className="col d-flex justify-left">
-            <label className="mr-sm-2" htmlFor="purchase_date">Purchase Date:   </label>
+            <label className="mr-sm-2" htmlFor="purchase_date">* Purchase Date:   </label>
             <DatePicker
                 name="purchase_date"
                 id="purchase_date" 

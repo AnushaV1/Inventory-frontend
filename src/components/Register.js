@@ -42,11 +42,11 @@ const Register = () => {
     const onSubmit = async(values) => {
         try {
             await dispatch(registerUser(values));
-            history.push('/dashboard')
-        }catch (errors) {
-			errors.forEach((e) => {
+            history.push('/dashboard');
+        }catch(errors) {
+		//	errors.forEach((e) => {
 				dispatch(addAlert(`Username/email already exists!`, 'warning'));
-			});
+		//	});
     }
 }
     
@@ -70,7 +70,6 @@ const Register = () => {
                 <Field type="text" name="lastname"  placeholder="Last Name"
                     className='form-control' />
                     <ErrorMessage name ="lastname"  render={msg => <div className="error">{msg}</div>} />
-            
             </div>
             <div className="form-group">
                 <label htmlFor="username">Username</label>

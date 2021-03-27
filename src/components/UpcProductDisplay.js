@@ -13,25 +13,25 @@ function UpcProductDisplay({ displayUpc }) {
         <>
         <div className="spotlight">
         <div className="content">  
-        <div class="container mt-3">
-    <div class="row">
-    <div class="col-sm"><h4 className="display-5">{displayUpc.title} </h4></div>
-    <div class="col-sm"><h4>UPC - {displayUpc.upc_code}</h4></div>
+        <div className="container mt-3">
+    <div className="row">
+    <div className="col-sm"><h4 className="display-5">{displayUpc.title} </h4></div>
+    <div className="col-sm"><h4>UPC - {displayUpc.upc_code}</h4></div>
     </div>
     
-    <div class="row">
-    <div class="col-sm"><span className="lead left-half"><strong>Category:{displayUpc.category}</strong></span></div>
+    <div className="row">
+    <div className="col-sm"><span className="lead left-half"><strong>Category:{displayUpc.category}</strong></span></div>
     </div>
-    <div class="row">
-    <div class="col-sm"><span><strong>Brand:{displayUpc.brand}</strong></span></div>
-    <div class="col-sm"><span><strong>Model: {displayUpc.model}</strong></span></div>
-    <div class="col-sm"><span><strong>Color:{displayUpc.color}</strong></span></div>
-    <div class="col-sm"><span><strong>Dimension: ${displayUpc.dimension}</strong></span></div>
+    <div className="row">
+    <div className="col-sm"><span><strong>Brand:{displayUpc.brand}</strong></span></div>
+    <div className="col-sm"><span><strong>Model: {displayUpc.model}</strong></span></div>
+    <div className="col-sm"><span><strong>Color:{displayUpc.color}</strong></span></div>
+    <div className="col-sm"><span><strong>Dimension: ${displayUpc.dimension}</strong></span></div>
     </div>
 
     <hr className="clear" />
-    <div class="row">
-    <div class="col-sm"><span>{displayUpc.description}</span></div>
+    <div className="row">
+    <div className="col-sm"><span>{displayUpc.description}</span></div>
     </div>
 </div>              
 

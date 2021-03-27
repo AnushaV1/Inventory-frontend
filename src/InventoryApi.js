@@ -9,7 +9,6 @@ class InventoryApi {
         let _token = localStorage.getItem('inventory-token');
         
         console.debug("API Call:", endpoint, params, verb);
-
         let q;
 
         if (verb === "get") {

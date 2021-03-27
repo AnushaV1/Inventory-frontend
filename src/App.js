@@ -20,7 +20,6 @@ function App() {
               if(token) {
                 let { username,userid } = decode(token);
                 let data = {token, username, userid}
-                console.log("Data from app js", data)
                 await dispatch(loadUser(data));
                 await dispatch(loadAllUPC());
           }
