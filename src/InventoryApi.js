@@ -7,7 +7,6 @@ const BASE_URL = process.env.REACT_APP_BACKEND_URL ||  'https://anusha-inventory
 class InventoryApi {
     static async request(endpoint, params = {}, verb = "get") {
         let _token = localStorage.getItem('inventory-token');
-        
         console.debug("API Call:", endpoint, params, verb);
         let q;
 

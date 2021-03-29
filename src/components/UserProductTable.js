@@ -8,8 +8,7 @@ import { ModalManager} from 'react-dynamic-modal';
 import MyModal from "./MyModal";
 import { addAlert } from "../actions/alertActions";
 import defaultLogo from "../images/default-no-image.png";
-import ImageModal from "./ImageModal"
-
+import ImageModal from "./ImageModal";
 
 const EditableCell = ({
     value: initialValue,
@@ -19,7 +18,7 @@ const EditableCell = ({
     updateMyData, 
 }) => {
     
-    const [value, setValue] = React.useState(initialValue)
+    const [value, setValue] = React.useState(initialValue);
 
     const onChange = e => {
         setValue(e.target.value)
