@@ -43,11 +43,9 @@ const Register = () => {
         try {
             await dispatch(registerUser(values));
             history.push('/dashboard');
-        }catch(errors) {
-		//	errors.forEach((e) => {
-				dispatch(addAlert(`Username/email already exists!`, 'warning'));
-		//	});
-    }
+        }catch(error) {
+					dispatch(addAlert(`Username/email already exists!`, 'warning'));
+		}
 }
     
     return (
